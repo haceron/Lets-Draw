@@ -7,6 +7,7 @@ import android.util.TypedValue
 import android.view.MotionEvent
 import android.view.View
 
+
 class DrawingView(context: Context,attrs:AttributeSet): View(context,attrs) {
     private var mDrawPath: CustomPath? =
         null // An variable of CustomPath inner class to use it further.
@@ -141,6 +142,8 @@ class DrawingView(context: Context,attrs:AttributeSet): View(context,attrs) {
         invalidate()
         return true
     }
+
+    //I am going to commit this code to github
 
     /**
      * This method is called when either the brush or the eraser
